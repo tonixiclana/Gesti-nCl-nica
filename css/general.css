@@ -1,0 +1,118 @@
+/*CSS para el especialista*/
+form {
+    display: inline-block;
+    text-align:center;
+    width: 400px;
+    font: normal bold 12px Verdana, Arial;
+}
+
+form label {
+    text-align: center;
+    width: 150px;
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+form control {
+    margin-left: 25%;
+}
+
+
+#logout {
+    font-style: inherit;
+    text-align: right;
+}
+
+h1 {
+     text-align: center;
+     color: blue;
+}
+
+h3 {
+    font-style: italic;
+}
+
+
+/* Para la tabla */
+table{
+border: 15px solid #25BAE4;
+border-collapse:collapse;
+margin-top: 50px;
+margin-left: 250px;
+}
+td{
+width: 50px;
+height: 50px;
+text-align: center;
+border: 1px solid #e2e0e0;
+font-size: 18px;
+font-weight: bold;
+}
+th{
+height: 50px;
+padding-bottom: 8px;
+background:#25BAE4;
+font-size: 20px;
+}
+.prev_sign a, .next_sign a{
+color:white;
+text-decoration: none;
+}
+tr.week_name{
+font-size: 16px;
+font-weight:400;
+color:red;
+width: 10px;
+background-color: #efe8e8;
+}
+.highlight{
+background-color:#25BAE4;
+color:white;
+height: 50%;
+}
+
+
+.tablaPacientes {
+    
+    text-align: left;
+    
+}
+
+#desplegable{
+    margin-left: 43%;
+    margin-right: 43%;
+    text-align: center;
+}
+
+#especialidad{
+    text-align: center;
+}
+
+td.informe{
+    width: 70%;
+    height: 40px;
+}
+table.informe{
+    margin-right: 15%;
+}
+
+table.cita{
+    margin-left: 32%;
+}
+
+td.cita{
+    width: 40%;
+    height: 30px;
+}
+
+td.cita1{
+    width: 30%;
+}
+
+.campos{
+    text-align: center;
+}
